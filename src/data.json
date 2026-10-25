@@ -1,0 +1,72 @@
+{
+  "title": "Days Since Homework",
+  "systemLabel": "CODEBUSTERS HOMEWORK TRACKER",
+  "liveColor": "red",
+  "headline": "Time since @liuster first asked for homework",
+  "tagline": "Codebusters is an event that requires practice.",
+
+  "longestStreak": { "days": 0, "hours": 0, "minutes": 0 },
+  "recordLabel": "Longest streak",
+  "newRecordText": "New record!",
+  "currentStreakLabel": "Current streak",
+  "previousBestLabel": "Previous best",
+  "ofRecordLabel": "of record",
+
+  "statusLevels": [
+    {
+      "minDays": 0,
+      "label": "Just asked — no worries",
+      "color-all": "#4ade80"
+    },
+    {
+      "minDays": 1,
+      "label": "Still waiting — hurry up",
+      "color-all": "yellow"
+    },
+    { "minDays": 3, "label": "Hurry up — lock in", "color-all": "orange" },
+    { "minDays": 7, "label": "We're dead", "color-all": "red" }
+  ],
+
+  "historyTitle": "Incident Log",
+  "newestFirst": true,
+  "latestLabel": "Latest",
+  "noHistoryText": "Filler — no incidents logged yet.",
+  "history": [
+    {
+      "date": "10/22/2026",
+      "time": "6:43 PM",
+      "subject": "Day 1 of asking for homework",
+      "note": "@liuster"
+    },
+    {
+      "date": "10/23/2026",
+      "time": "12:37 PM",
+      "subject": "Day 2 of asking for homework",
+      "note": "@liuster"
+    },
+    {
+      "date": "10/24/2026",
+      "time": "10:51 AM",
+      "subject": "Day 3 of asking for homework",
+      "note": "@mutatedpanda"
+    },
+    {
+      "date": "10/24/2026",
+      "time": "11:41 AM",
+      "subject": "Day 3 of asking for homework",
+      "note": "@liuster"
+    },
+    {
+      "date": "10/24/2026",
+      "time": "2:59 PM",
+      "subject": "Day 3.5 of asking for homework",
+      "note": "@liuster"
+    },
+    {
+      "date": "10/24/2026",
+      "time": "6:29 PM",
+      "subject": "Day 3.75 of asking for homework",
+      "note": "@liuster"
+    }
+  ]
+}
