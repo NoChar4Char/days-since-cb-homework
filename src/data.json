@@ -35,43 +35,43 @@
     {
       "date": "10/22/2026",
       "time": "6:43 PM",
-      "subject": "Day 1 of asking for homework",
+      "subject": "day 1 of asking for homework",
       "note": "@liuster"
     },
     {
       "date": "10/23/2026",
       "time": "12:37 PM",
-      "subject": "Day 2 of asking for homework",
+      "subject": "day 2 of asking for homework",
       "note": "@liuster"
     },
     {
       "date": "10/24/2026",
       "time": "10:51 AM",
-      "subject": "Day 3 of asking for homework",
+      "subject": "day 3 of asking for homework",
       "note": "@mutatedpanda"
     },
     {
       "date": "10/24/2026",
       "time": "11:41 AM",
-      "subject": "Day 3 of asking for homework",
+      "subject": "day 3 of asking for homework",
       "note": "@liuster"
     },
     {
       "date": "10/24/2026",
       "time": "2:59 PM",
-      "subject": "Day 3.5 of asking for homework",
+      "subject": "day 3.5 of asking for homework",
       "note": "@liuster"
     },
     {
       "date": "10/24/2026",
       "time": "6:29 PM",
-      "subject": "Day 3.75 of asking for homework",
+      "subject": "day 3.75 of asking for homework",
       "note": "@liuster"
     },
     {
       "date": "10/24/2026",
       "time": "7:35 PM",
-      "subject": "Day 3.8 of asking for homework",
+      "subject": "day 3.8 of asking for homework",
       "note": "@mcmaster3613"
     },
     {
@@ -83,8 +83,20 @@
     {
       "date": "10/25/2026",
       "time": "12:59 AM",
-      "subject": "Day 4 of asking for homework",
+      "subject": "day 4 of asking for homework",
       "note": "@mutatedpanda"
+    },
+    {
+      "date": "10/27/2026",
+      "time": "7:12 PM",
+      "subject": "day 6 maybe of asking for homework",
+      "note": "@mutatedpanda"
+    },
+    {
+      "date": "10/30/2026",
+      "time": "3:47 PM",
+      "subject": "day infinity of asking for homework",
+      "note": "@liuster"
     }
   ]
 }
