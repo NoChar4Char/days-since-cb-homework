@@ -127,12 +127,13 @@ The site uses React and [Motion](https://motion.dev/) for the animations, built 
 
 ### For the maintainer: publishing changes
 
-The live site doesn't update by itself when a pull request is merged. After merging, run:
+The [Deploy workflow](.github/workflows/deploy.yml) publishes the site to GitHub Pages on every push to `main` (so merged pull requests go live by themselves) and again every 30 minutes. You can still publish by hand with `npm run deploy`.
 
-```bash
-git pull
-npm run deploy
-```
+### Discord / link previews
+
+When the link is pasted in Discord, the preview shows the current timer, status and incident count. Discord can't run the page's JavaScript, so these values are written into `index.html` when the site is built (see `src/embed.js`). The scheduled rebuild keeps them fresh. The embed's side color follows the current status level's `color-all`.
+
+Discord caches link previews, so posting the exact same link again may show an older timer. Adding something to the end, like `?now` or `?2`, makes Discord fetch a fresh one.
 
 ---
 
