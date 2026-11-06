@@ -2,10 +2,10 @@
   "title": "Days Since Homework",
   "systemLabel": "CODEBUSTERS HOMEWORK TRACKER",
   "liveColor": "red",
-  "headline": "Time since @liuster first asked for homework",
+  "headline": "Time since @lavanyauk released homework",
   "tagline": "Codebusters is an event that requires practice.",
 
-  "longestStreak": { "days": 0, "hours": 0, "minutes": 0 },
+  "longestStreak": { "days": 14, "hours": 0, "minutes": 45 },
   "recordLabel": "Longest streak",
   "newRecordText": "New record!",
   "currentStreakLabel": "Current streak",
@@ -15,16 +15,24 @@
   "statusLevels": [
     {
       "minDays": 0,
-      "label": "Just asked — no worries",
+      "label": "Homework was just released!",
       "color-all": "#4ade80"
     },
     {
-      "minDays": 1,
-      "label": "Still waiting — hurry up",
+      "minDays": 7,
+      "label": "Homework was released a week ago.",
       "color-all": "yellow"
     },
-    { "minDays": 3, "label": "Hurry up — lock in", "color-all": "orange" },
-    { "minDays": 7, "label": "We're dead", "color-all": "red" }
+    {
+      "minDays": 14,
+      "label": "Homework was released two weeks ago",
+      "color-all": "orange"
+    },
+    {
+      "minDays": 28,
+      "label": "@lavanyauk is gonna end us all",
+      "color-all": "red"
+    }
   ],
 
   "historyTitle": "Incident Log",
@@ -33,88 +41,10 @@
   "noHistoryText": "Filler — no incidents logged yet.",
   "history": [
     {
-      "date": "10/22/2026",
-      "time": "6:43 PM",
-      "subject": "day 1 of asking for homework",
-      "note": "@liuster"
-    },
-    {
-      "date": "10/23/2026",
-      "time": "12:37 PM",
-      "subject": "day 2 of asking for homework",
-      "note": "@liuster"
-    },
-    {
-      "date": "10/24/2026",
-      "time": "10:51 AM",
-      "subject": "day 3 of asking for homework",
-      "note": "@mutatedpanda"
-    },
-    {
-      "date": "10/24/2026",
-      "time": "11:41 AM",
-      "subject": "day 3 of asking for homework",
-      "note": "@liuster"
-    },
-    {
-      "date": "10/24/2026",
-      "time": "2:59 PM",
-      "subject": "day 3.5 of asking for homework",
-      "note": "@liuster"
-    },
-    {
-      "date": "10/24/2026",
-      "time": "6:29 PM",
-      "subject": "day 3.75 of asking for homework",
-      "note": "@liuster"
-    },
-    {
-      "date": "10/24/2026",
-      "time": "7:35 PM",
-      "subject": "day 3.8 of asking for homework",
-      "note": "@mcmaster3613"
-    },
-    {
-      "date": "10/24/2026",
-      "time": "7:39 PM",
-      "subject": "Day 3.8 of asking for homework",
-      "note": "@liuster"
-    },
-    {
-      "date": "10/25/2026",
-      "time": "12:59 AM",
-      "subject": "day 4 of asking for homework",
-      "note": "@mutatedpanda"
-    },
-    {
-      "date": "10/27/2026",
-      "time": "7:12 PM",
-      "subject": "day 6 maybe of asking for homework",
-      "note": "@mutatedpanda"
-    },
-    {
-      "date": "10/30/2026",
-      "time": "3:47 PM",
-      "subject": "day infinity of asking for homework",
-      "note": "@liuster"
-    },
-    {
-      "date": "11/1/2026",
-      "time": "7:58 PM",
-      "subject": "Day 10 of asking for homework",
-      "note": "@mcmaster3613"
-    },
-    {
-      "date": "11/1/2026",
-      "time": "8:21 PM",
-      "subject": "day -1 of asking for homework",
-      "note": "@liuster"
-    },
-    {
-      "date": "11/2/2026",
-      "time": "4:08 PM",
-      "subject": "almost day 10 of asking for homework",
-      "note": "@mutatedpanda"
+      "date": "11/5/2026",
+      "time": "7:28 PM",
+      "subject": "war is over / now if you asked me for homework more than once i expect this to be done.",
+      "note": "@lavanyauk"
     }
   ]
 }
